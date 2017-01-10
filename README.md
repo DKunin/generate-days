@@ -13,13 +13,13 @@ NB: Currently there is an error, counting week number for january, will fix soon
 
 ## Install
 
-```
+```console
 npm i generate-days
 ```
 
 ## Usage
 
-```
+```js
 import generateDays from 'generate-days';
 
 // Month is zero based
