@@ -1,0 +1,33 @@
+{
+  "name": "generate-days",
+  "version": "0.0.1",
+  "private": false,
+  "main": "index.js",
+  "author": {
+    "name": "dkunin",
+    "email": "whitemarten@gmail.com",
+    "url": "dkunin.ru"
+  },
+  "scripts": {
+    "test": "./node_modules/ava/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dkunin/generate-days.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dkunin/generate-days/issues"
+  },
+  "homepage": "https://github.com/dkunin/generate-days",
+  "keywords": [
+    "generate,",
+    "days,",
+    "year,",
+    "weeks"
+  ],
+  "license": "MIT",
+  "description": "Simple module, to generate days for year, calculate week numbers and stuff",
+  "devDependencies": {
+    "ava": "0.17.0"
+  }
+}
