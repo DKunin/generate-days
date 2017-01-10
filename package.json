@@ -9,6 +9,7 @@
     "url": "dkunin.ru"
   },
   "scripts": {
+    "prepublish": "npm test",
     "test": "./node_modules/ava/cli.js"
   },
   "repository": {

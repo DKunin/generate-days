@@ -1,6 +1,8 @@
-# Title
+# Generate days
 
-> This is an example file with default selections.
+> Simple module to generate days of the month
+
+NB: Currently there is an error, counting week number for january, will fix soon
 
 ## Table of Contents
 
@@ -12,11 +14,25 @@
 ## Install
 
 ```
+npm i generate-days
 ```
 
 ## Usage
 
 ```
+import generateDays from 'generate-days';
+
+// Month is zero based
+
+const january = generateDays(0, 2017);
+
+console.log(january);
+//  [
+//      { dayIndex: 6, weekIndex: 1, date: '1-1-2017' },
+//      ...
+//      { dayIndex: 1, weekIndex: 5, date: '31-1-2017' }
+//  ]
+
 ```
 
 ## Contribute
@@ -25,4 +41,4 @@ PRs accepted.
 
 ## License
 
-MIT © Richard McRichface
+MIT © Dmitri Kunin
