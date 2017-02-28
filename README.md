@@ -28,7 +28,7 @@ const january = generateDays(0, 2017);
 
 console.log(january);
 //  [
-//      { dayIndex: 6, weekIndex: 1, date: '1-1-2017' },
+//      { dayIndex: 6, weekIndex: 53, date: '1-1-2017' },
 //      ...
 //      { dayIndex: 1, weekIndex: 5, date: '31-1-2017' }
 //  ]
